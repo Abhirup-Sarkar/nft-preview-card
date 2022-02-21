@@ -39,6 +39,9 @@ body{
 }
 h1{
     font-size: 18px;
+    margin-left: 1.5rem;
+    color: var(--White);
+    font-weight: 600;
 }
 p{
     font-size: 18px;
