@@ -1,0 +1,23 @@
+
+
+
+*{
+    margin: 0rem;
+    padding: 0rem;
+}
+body{
+    display: flex;
+    
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    flex-direction: column;
+    max-width: 350px;
+    max-height: 588px;
+}
+.container__image{
+    width: 302px;
+    height: 302px;
+}
