@@ -46,6 +46,11 @@ h1{
 p{
     font-size: 18px;
 }
+.container__text{
+    margin: 1.5rem 1.5rem;
+    color: var(--Soft-blue);
+    font-weight: 300;
+}
 .container__creator--avatar{
     width: 20%;
     height: 20%;
