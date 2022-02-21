@@ -23,7 +23,7 @@ body{
     font-family: 'Outfit', sans-serif;
 }
 .container{
-    flex-direction: column;
+    /* flex-direction: column; */
     max-width: 350px;
     max-height: 588px;
     border: 1px solid black;
@@ -44,12 +44,39 @@ h1{
     font-weight: 600;
 }
 p{
-    font-size: 18px;
+    font-size: 16px;
+}
+.container__price::before{
+    content:url(/images/icon-ethereum.svg);
+    display: inline-block;
+    
+    
+}
+.container__time::before{
+    content: url(/images/icon-clock.svg);
+    width: 16px;
+    height: 16px;
 }
 .container__text{
-    margin: 1.5rem 1.5rem;
+    margin:1.5rem 1.5rem 0rem 1.5rem;
     color: var(--Soft-blue);
     font-weight: 300;
+}
+.container__price{
+    display:flex;
+    align-items: flex-start;
+    
+}
+.container__line{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0rem 1.5rem 0rem 1.5rem;
+}
+.container__time{
+    display:flex;
+    
+    
 }
 .container__creator--avatar{
     width: 20%;
