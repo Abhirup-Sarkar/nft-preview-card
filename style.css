@@ -16,8 +16,20 @@ body{
     flex-direction: column;
     max-width: 350px;
     max-height: 588px;
+    border: 1px solid black;
+    border-radius: 1rem;
 }
 .container__image{
+    display: block;
+    margin: 1.5rem 1.5rem;
     width: 302px;
     height: 302px;
+    border-radius: 1rem;
+}
+h1{
+    font-size: 18px;
+}
+p{
+    font-size: 18px;
+}
 }
