@@ -28,6 +28,7 @@ body{
     max-height: 588px;
     border: 1px solid black;
     border-radius: 1rem;
+    background-color: var(--Very-dark-blue-card-BG);
 }
 .container__image{
     display: block;
