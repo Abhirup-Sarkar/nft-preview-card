@@ -71,18 +71,21 @@ p{
 .container__price{
     display:flex;
     align-items: flex-start;
+    color:var(--Cyan);
     
 }
 .container__line{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin: 1.5rem 1.5rem 0rem 1.5rem;
+    margin: 1.5rem;
 }
 .container__time{
     display:flex;
+    color:var(--Soft-blue);
     
     
+}
 }
 .container__creator--avatar{
     width: 20%;
