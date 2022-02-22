@@ -16,21 +16,27 @@
     --White: hsl(0, 0%, 100%);
 }
 body{
+    
     display: flex;    
-    min-height: 100vh;
+    
     justify-content: center;
     align-items: center;
+    
     font-family: 'Outfit', sans-serif;
-    background-color: var(--Very-dark-blue-main-BG);
+    background-color: rgba(13,27,44,255); 
+    height: 1440px
 }
 .container{
     display:flex;
     flex-direction: column;
     max-width: 350px;
     max-height: 588px;
-    border: 1px ;
+    border: 1px;
     border-radius: 1rem;
     background-color: var(--Very-dark-blue-card-BG);
+    box-shadow: 0px 35px 0 20px #0d1629, 0 32px 0px 50px #0d192d;
+    
+    
 }
 .container__image{
     display: block;
