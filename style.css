@@ -21,14 +21,16 @@ body{
     justify-content: center;
     align-items: center;
     font-family: 'Outfit', sans-serif;
+    background-color: var(--Very-dark-blue-main-BG);
 }
 .container{
-    /* flex-direction: column; */
+    display:flex;
+    flex-direction: column;
     max-width: 350px;
     max-height: 588px;
-    border: 1px solid black;
+    border: 1px ;
     border-radius: 1rem;
-    background-color: var(--Very-dark-blue-line);
+    background-color: var(--Very-dark-blue-card-BG);
 }
 .container__image{
     display: block;
