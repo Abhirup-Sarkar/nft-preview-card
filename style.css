@@ -47,13 +47,13 @@ body{
     border-radius: 0.625rem;
 }
 h1{
-    font-size: 18px;
+    font-size: 1.25rem ;
     margin-left: 1.5rem;
     color: var(--White);
     font-weight: 600;
 }
 p{
-    font-size: 16px;
+    font-size: 1.125rem;
 }
 .container__price::before{
     content:url(/images/icon-ethereum.svg);
